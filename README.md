@@ -1,5 +1,5 @@
 
-<h3>🧠 Advanced Activity & Credential Monitoring Tool</h3>
+<h3>🧠 Advanced Activity & Monitoring Tool</h3>
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![OS](https://img.shields.io/badge/OS-Windows-lightgrey)

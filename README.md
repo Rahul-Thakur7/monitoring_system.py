@@ -1,34 +1,47 @@
-# Advanced Monitoring System (AMS)
 
-## Warning
-**This code is designed for ethical and educational purposes only.**  
-**It should never be used without explicit permission from the owner of the system being monitored.**  
-Unauthorized monitoring, keylogging, clipboard reading, or capturing of sensitive information is illegal in most jurisdictions and is a violation of privacy.  
-By running this software, you agree to take full responsibility for your actions and ensure that you comply with all applicable laws and regulations.
+<h3>🧠 Advanced Activity & Credential Monitoring Tool</h3>
 
-## Features
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![OS](https://img.shields.io/badge/OS-Windows-lightgrey)
+![Status](https://img.shields.io/badge/Status-Experimental-red)
+![SecurityTool](https://img.shields.io/badge/Category-Red%20Team%2FInfosec-important)
 
-- **Keystroke Logging**: Captures and logs keystrokes (excluding sensitive fields) to the terminal and JSON log file.
-- **Credential Capture**: Detects sensitive fields like login forms and captures usernames and passwords typed or copied into them.
-- **Sensitive Field Detection**: Automatically identifies fields like username, password, and credit card numbers.
-- **Screenshot Capture**: Takes screenshots at regular intervals (configurable) and saves them to the `screenshots` directory.
-- **Clipboard Monitoring**: Captures clipboard data (if configured) and checks if it contains sensitive information.
-- **Email Reporting**: Sends an email with activity reports (last 20 entries) at regular intervals (configurable).
-- **Activity Logging**: Logs all activities in a JSON file with timestamps and window titles, including keystrokes, clipboard data, and screenshots.
+</div>
 
-## Installation
+---
 
-### Dependencies
+## ⚠️ WARNING: FOR EDUCATIONAL & ETHICAL USE ONLY
 
-This script requires the following Python libraries:
-- `keyboard`
-- `pyautogui`
-- `pyscreenshot`
-- `requests`
-- `beautifulsoup4`
-- `pywin32`
+This tool has the ability to **monitor keystrokes**, **capture screenshots**, **detect credentials**, and **track user activity**.  
+**Unauthorized use may be illegal and punishable under laws in your country.**
 
-You can install them using pip:
+**📛 Use it ONLY on machines you own or have explicit permission to monitor.**
+
+---
+
+## 🔧 Features
+
+- 🔑 Keystroke logging with active window context
+- 🔍 Sensitive field detection (passwords, logins, credit card forms)
+- ✂️ Clipboard content capture (`Ctrl + V`)
+- 📸 Periodic screenshot capture (configurable interval)
+- 📧 Email reporting with recent activity logs
+- 💾 Logs saved in structured JSON
+- 🧠 Intelligent credentials buffer (username + password)
+- 🧼 Lightweight & multi-threaded execution
+- 🖥️ Active window + browser URL extraction
+
+---
+
+## 📸 Screenshots
 
 ```bash
-pip install keyboard pyautogui pyscreenshot requests beautifulsoup4 pywin32
+/screenshots/
+├── screenshot_20250414_121010_1.png
+├── screenshot_20250414_121040_2.png
+```
+📜 License & Disclaimer
+This software is provided for educational and authorized security testing only.
+The author is not responsible for any misuse or damage caused.
+
+👁️‍🗨️ Stay Ethical. Stay Curious. Hack the Right Way.
